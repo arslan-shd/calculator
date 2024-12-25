@@ -47,7 +47,7 @@ const App = () => {
         <button onClick={() => handleClick("+")}>+</button>
 
         <button onClick={() => handleClick("/")}>/</button>
-        <button onClick={() => handleClick("9")}>0</button>
+        <button onClick={() => handleClick("0")}>0</button>
         <button onClick={() => handleClick("*")}>x</button>
         <button onClick={() => handleClick("-")}>-</button>
         <button className="btn-accent" onClick={() => handleCalcResult()}>
