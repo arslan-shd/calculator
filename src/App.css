@@ -64,6 +64,10 @@ button {
   color: #000;
 }
 
+.operator {
+  font-size: 1.5rem;
+}
+
 .btn-accent {
   font-size: 3.5rem;
   background: #4263eb;

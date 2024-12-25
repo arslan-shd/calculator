@@ -53,12 +53,20 @@ const App = () => {
         <button onClick={() => handleClick("1")}>1</button>
         <button onClick={() => handleClick("2")}>2</button>
         <button onClick={() => handleClick("3")}>3</button>
-        <button onClick={() => handleClick("+")}>+</button>
+        <button className="operator" onClick={() => handleClick("+")}>
+          +
+        </button>
 
-        <button onClick={() => handleClick("/")}>/</button>
+        <button className="operator" onClick={() => handleClick("/")}>
+          /
+        </button>
         <button onClick={() => handleClick("0")}>0</button>
-        <button onClick={() => handleClick("*")}>x</button>
-        <button onClick={() => handleClick("-")}>-</button>
+        <button className="operator" onClick={() => handleClick("*")}>
+          x
+        </button>
+        <button className="operator" onClick={() => handleClick("-")}>
+          -
+        </button>
         <button className="btn-accent" onClick={() => handleCalcResult()}>
           =
         </button>
