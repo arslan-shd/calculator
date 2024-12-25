@@ -53,16 +53,6 @@
   margin-top: 20px;
 }
 
-.btn-accent {
-  font-size: 3.5rem;
-  background: #4263eb;
-  color: #fff;
-  grid-row: 5/5;
-  grid-column: 1/-1;
-  padding: 0;
-  transition: all 0.2s ease-in;
-}
-
 button {
   padding: 20px;
   border: none;
@@ -70,6 +60,17 @@ button {
   font-size: 18px;
   background: #eee;
   cursor: pointer;
+  transition: all 0.2s ease-in;
+  color: #000;
+}
+
+.btn-accent {
+  font-size: 3.5rem;
+  background: #4263eb;
+  color: #fff;
+  grid-row: 5/5;
+  grid-column: 1/-1;
+  padding: 0;
   transition: all 0.2s ease-in;
 }
 
