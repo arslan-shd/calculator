@@ -22,6 +22,13 @@ const App = () => {
 
   return (
     <div className="calculator">
+      <div className="header">
+        <img className="logo-img" src="favicon.svg" alt="" />
+        <div className="logo-text-box">
+          <h1 className="title">Arithma</h1>
+          <p className="tagline">Simplifying Numbers, Empowering Minds </p>
+        </div>
+      </div>
       <div>
         <input
           disabled="true"
