@@ -13,7 +13,9 @@ const App = () => {
   };
 
   const handleCalcResult = () => {
-    setInput(eval(input));
+    if (input) {
+      setInput(eval(input));
+    }
   };
 
   const handleDelete = () => {

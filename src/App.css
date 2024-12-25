@@ -3,12 +3,12 @@
 }
 
 .header {
-  margin-bottom: 2rem;
+  margin-bottom: 2.35rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .logo-text-box {
@@ -54,10 +54,13 @@
 }
 
 .btn-accent {
+  font-size: 2.5rem;
   background: #4263eb;
   color: #fff;
   grid-row: 5/5;
   grid-column: 1/-1;
+  padding: 10px;
+  transition: all 0.2s ease-in;
 }
 
 button {
@@ -67,10 +70,15 @@ button {
   font-size: 18px;
   background: #eee;
   cursor: pointer;
+  transition: all 0.2s ease-in;
 }
 
 button:not(.btn-accent):hover {
-  background: #c8c8c8;
+  background: #bebebe;
+}
+
+.btn-accent:hover {
+  background: #354fbc;
 }
 
 @media (max-width: 767px) {
