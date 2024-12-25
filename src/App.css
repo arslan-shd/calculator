@@ -70,11 +70,11 @@ button {
 }
 
 button:not(.btn-accent):hover {
-  background: #ddd;
+  background: #c8c8c8;
 }
 
 @media (max-width: 767px) {
   html {
-    font-size: 80%;
+    font-size: 82%;
   }
 }
